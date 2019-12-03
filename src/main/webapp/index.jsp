@@ -7,38 +7,7 @@
     <script type="text/javascript" src="static/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 </head>
 <body>
-<div class="container"style="padding: 50px 185px 10px;">
-    <div id="myCarousel" class="carousel slide">
-        <!-- 轮播（Carousel）指标 -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <!-- 轮播（Carousel）项目 -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="static/image/s1.jpg" alt="First slide">
-                <div class="carousel-caption">巴黎</div>
-            </div>
-            <div class="item">
-                <img src="static/image/s2.jpg" alt="Second slide">
-                <div class="carousel-caption">夜景</div>
-            </div>
-            <div class="item">
-                <img src="static/image/s3.jpg" alt="Third slide">
-                <div class="carousel-caption">马尔代夫</div>
-            </div>
-        </div>
-        <!-- 轮播（Carousel）控制器 -->
-        <a class="carousel-control left" href="#myCarousel"
-           data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="carousel-control right" href="#myCarousel"
-           data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-<%--<div class="container">
+<div class="container">
     <!-- 导航 -->
     <div class="nav">
         <ul>
@@ -90,7 +59,7 @@
             <li><a href="#"></a></li>
         </ul>
     </div>
-</div>--%>
+</div>
 </body>
 </html>
 
