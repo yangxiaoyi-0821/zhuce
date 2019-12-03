@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--该文件主要是用来编写dao层接口中的一些实现方法-->
+<mapper namespace="java.com.cn.Dao.CustomerMapper">
+    <insert id="saveUsers" parameterType="java.com.cn.Entity.Users" >
+        insert into user(usr_id,user_name,telephone,user_password,user_type)
+        values(#{user_id},#{user_name},#{telephone},#{user_type},#{user_password})
+    </insert>
+</mapper>
